@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet");
+
+html,
+body {
+  background-color: #343C4E;
+  font-family: 'Titillium Web', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: relative;
+  color: white;
+  letter-spacing: 1px;
+  width: 1000px;
+ }
+@media (max-width: 600px) {
+html,
+body {
+  width:600px;
+  max-width:100%;
+ }
+}
+header {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    background-color:#343C4E;
+    }
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+    width:600px;
+    position:relative;
+  }
+}
+#header-img {
+    width:300px;
+    padding-right:1000px;
+}
+@media (max-width: 600px) {
+  #header-img {
+    margin: 0 auto;
+    dispaly: block;
+    max-width:100%;
+  }
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  }
+li {
+  list-style: none;
+  padding-right:50px;
+}
+
+a:link {
+ text-decoration:none;
+ color: white;
+ }
+
+a:visited {
+  color: #9A9EA7;
+}
+
+a:hover {
+  color: black;
+}
+
+#first {
+  margin-top: 80px;
+  margin-left: 700px;
+  font-size: 1.6em ;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  #first{
+    margin: 0 auto;
+    max-width:100%;
+  }
+ } 
+#button {
+  position: relative;
+  top: 0px;
+  left: 900px;
+  width: 100px;
+  height: 40px;
+  background-color:#9A9EA7;
+  border-radius:3px;
+  border: 0px solid;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  margin-bottom:70px;
+}
+
+.icon, .text-right{
+  display: inline-block;
+  }
+
+.icon{
+  font-size: 50px;
+  margin-right: 40px;
+  margin-left: 500px;
+  margin-top:20px;
+  margin-bottom:50px;
+}
+.services-name{
+  margin-top: 20px;
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  }
+
+#form{
+  display:flex;
+  flex-direction: column;
+  
+}
+#email{
+  width: 20%;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  padding:6px;
+  margin-bottom: 20px;
+  margin-left:800px;
+}
+#submit{
+  width:10%;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  padding:6px;
+  margin-left:850px;
+  margin-bottom: 40px;
+}
+#video{
+  margin-left:700px;
+  padding-bottom:40px;
+  height: 200px;
+  border-style:none;
+}
+
+#white-box{
+  background-color:white;
+  margin-left:640px;
+  padding: 20px;
+  padding-top: 20px;
+  width:50%;
+}
+#about-us{
+  color:black;
+  width:1000px;
+}
+#about{
+  text-align:center;
+  padding-bottom:20px;
+  
+}
